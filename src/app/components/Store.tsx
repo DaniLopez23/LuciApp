@@ -5,7 +5,7 @@ import { useCoins } from "../context/CoinsContext"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
-
+import Image from "next/image"
 const products = [
   { id: 1, name: "Cartita", price: 100, type:"letter", image: "/carta.png" },
   { id: 2, name: "Caja de Chocolates", price: 100, image: "/bombones.png" },
