@@ -7,7 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
 
 const products = [
-  { id: 1, name: "Cartita", price: 100, image: "/carta.png" },
+  { id: 1, name: "Cartita", price: 100, type:"letter", image: "/carta.png" },
   { id: 2, name: "Caja de Chocolates", price: 100, image: "/bombones.png" },
   { id: 3, name: "Polvo.......", price: 0, image: "/foto.jpg" },
   { id: 4, name: "Cena Romántica", price: 700, image: "/cena.jpg" },
